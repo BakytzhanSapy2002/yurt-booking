@@ -126,7 +126,6 @@ ta==0.11.0
 tenacity==8.2.3
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
-tensorflow @ file:///C:/Users/ACER/Downloads/tensorflow-2.19.0-cp311-cp311-win_amd64.whl#sha256=ade03804d81e696f8b9045bbe2dd5d0146e36c63d85bf2eae8225ffa74a03713
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==3.1.0
 threadpoolctl==3.6.0

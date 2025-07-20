@@ -34,6 +34,7 @@ fonttools==4.42.1
 frozendict==2.4.6
 frozenlist==1.6.0
 gast==0.6.0
+gunicorn
 google-auth==2.40.3
 google-auth-oauthlib==1.2.2
 google-pasta==0.2.0

@@ -5,9 +5,9 @@ from datetime import timedelta
 from telegram import Update
 
 # Telegram ID – тек админ қолдана алады
-ADMIN_ID = 1316179678  # <-- Өз ID-ңызды жазыңыз
+ADMIN_ID = **********  # <-- Өз ID-ңызды жазыңыз
 
-BOT_TOKEN = "7462800568:AAFu2y3_znZkg1wviHyKwEcuTBlgWkFpWCg"
+BOT_TOKEN = "*******************"
 def get_help_text(user_id):
     if user_id == ADMIN_ID:
         return (

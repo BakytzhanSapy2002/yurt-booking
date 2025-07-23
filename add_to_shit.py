@@ -25,8 +25,8 @@ object_types = [
 ]
 
 # Күндер аралығы
-start_date = datetime(2025, 7, 13)
-end_date = datetime(2025, 7, 31)
+start_date = datetime(2025, 7, 22 )
+end_date = datetime(2025, 8, 13)
 
 rows = []
 

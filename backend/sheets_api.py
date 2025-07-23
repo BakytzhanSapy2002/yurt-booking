@@ -16,8 +16,8 @@ creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
 client = gspread.authorize(creds)
 
 # 🗂️ Sheet және Worksheet
-SPREADSHEET_NAME = "BookingSystem"     # Sheets атауы
-WORKSHEET_NAME = "Calendar"            # Worksheet атауы
+SPREADSHEET_NAME = "Booking_kuiz_ui"     # Sheets атауы
+WORKSHEET_NAME = "calendar_data"            # Worksheet атауы
 sheet = client.open(SPREADSHEET_NAME).worksheet(WORKSHEET_NAME)
 
 # ✅ Барлық деректерді алу

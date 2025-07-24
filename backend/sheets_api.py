@@ -11,9 +11,14 @@ if not GOOGLE_CREDENTIALS_JSON:
 
 # ✅ Google Sheets API-ге қосылу
 creds_dict = json.loads(GOOGLE_CREDENTIALS_JSON)
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SCOPES = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
+
 creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
 client = gspread.authorize(creds)
+# print(creds.service_account_email)
 
 # 🗂️ Sheet және Worksheet
 SPREADSHEET_NAME = "Booking_kuiz_ui"     # Sheets атауы
